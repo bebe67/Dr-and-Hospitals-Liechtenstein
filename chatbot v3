@@ -1,6 +1,6 @@
 import random
 
-responses = { "hello" : ['Hi, how can I help you today?','Hello, how do you fell today?'],
+responses = { "hello" : ['Hi, how can I help you today?','Hello, how do you feel today?'],
              "hi" : ['hey, there!',"what's up?"],
              "hey" : ['hey, how is it going?', 'hi'],
              "i am feeling sick": ["so sorry to hear so you can visit the doctor here: https://lovable-solid-kangaroo-k4geji.teleporthq.app/gen-prac","hope you get well soon, you can visit the hospitals here:https://lovable-solid-kangaroo-k4geji.teleporthq.app/hospitals"],
