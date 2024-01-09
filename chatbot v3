@@ -19,4 +19,4 @@ while True:
         
         print("Bot Reply: ", bot_reply)
     else:
-        print("Bot Reply: I don't unserstand, sorry") 
+        print("Bot Reply: I don't understand, sorry") 
