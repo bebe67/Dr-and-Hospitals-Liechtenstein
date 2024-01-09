@@ -1,0 +1,22 @@
+import random
+
+responses = { "hello" : ['Hi, how can I help you today?','Hello, how do you fell today?'],
+             "hi" : ['hey, there!',"what's up?"],
+             "hey" : ['hey, how is it going?', 'hi'],
+             "i am feeling sick": ["so sorry to hear so you can visit the doctor here: https://lovable-solid-kangaroo-k4geji.teleporthq.app/gen-prac","hope you get well soon, you can visit the hospitals here:https://lovable-solid-kangaroo-k4geji.teleporthq.app/hospitals"],
+             "my ears hurts" : ["oh, am so sorry to hear so, please visit the doctors here: https://lovable-solid-kangaroo-k4geji.teleporthq.app/otolaryngologist"], 
+             "my tooth really hurts" : ["so sorry to hear so, please visit:  https://lovable-solid-kangaroo-k4geji.teleporthq.app/dentist "],
+             "my heart is not good" : ["oh, am so sorry to hear so, please visit:https://lovable-solid-kangaroo-k4geji.teleporthq.app/cardiologist"],
+             "can you show me the departments you have?" : ["sure, i'd be happy to help, please visit: https://lovable-solid-kangaroo-k4geji.teleporthq.app/departments"],
+             "goodbye": ['Goodbye','Hope you get well soon','Bye']
+             'bye' : ['Hope you get well soon']
+             }
+
+while True:
+    user_text = input('You:  ')
+    if user_text.lower() in responses:
+        bot_reply = random.choice(responses[user_text.lower()])
+        
+        print("Bot Reply: ", bot_reply)
+    else:
+        print("Bot Reply: I don't unserstand, sorry") 
